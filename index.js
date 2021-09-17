@@ -147,3 +147,10 @@ console.log(reduc_arr);
 
 let slic = reduc_arr.slice(1, 5);
 console.log(slic);
+
+
+let new_array=[1,2,3,4,5,6];
+new_array.forEach((ele,idx,arra)=>console.log(arra))
+
+let mod_arr=new_array.filter(ele=>ele<=2).map(ele=>ele*100)
+console.log(mod_arr)

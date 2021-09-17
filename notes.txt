@@ -76,3 +76,13 @@ for (key in obj) {
 7. optional parameters
 
 
+/// arrays are collection of heterojenious elements
+
+again discusing
+forEach
+map
+filter
+reduce
+some
+every
+fill
