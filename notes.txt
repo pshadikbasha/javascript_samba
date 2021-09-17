@@ -1,1 +1,78 @@
 Hello shadik
+
+
+// variables 
+variables are used to store the data,
+// data types in javascript
+1. Number
+2. string
+3. boolean
+4. undefined
+5. null
+6. bigint
+7. symbol
+8. arrays
+9. objects
+
+// diff between var and let
+1. let obeys scope rule
+1. var breakes scope rule.
+
+2. var creates variable global polluting issues.
+2. let doesnt create global varibble polluting issues.
+
+3. var allows duplicate varible declaration
+3. let doesnt allow duplicate varible declaration.
+
+// these are three main difference between let and var
+
+examples of data types. 
+1. Numbers
+var a=10;
+console.log('the type of number',typeof a);
+let a = 10;
+console.log(typeof a);
+
+let b = "shadi";
+console.log(typeof b);
+
+let c = true;
+console.log(typeof c);
+
+let d;
+console.log(d);
+
+let e = null;
+console.log(typeof e);
+
+/// arrays
+
+let arr = [1, 2, 3, 3, 4];
+arr.forEach((ele, idx) => console.log(ele));
+
+// objects
+var obj = {
+  a: "shadik",
+  b: "basha",
+  c: "koushik",
+};
+
+console.log("the value is", obj.a);
+console.log("the value is", obj.b);
+console.log("the value is", obj.c);
+for (key in obj) {
+  console.log(obj[key]);
+}
+
+
+// typeof of functions
+
+1. Named functions
+2. arrow functions
+3. default parameter functions
+4. iife(immediate invokable functoinal expression)
+5. generators
+6. Rest parameters
+7. optional parameters
+
+
