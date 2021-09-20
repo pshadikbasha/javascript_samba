@@ -1,5 +1,6 @@
 Hello shadik
 
+Javascript is object based scripting language. It was developed by NetScape. It is used in most frameworks like Angular and libraries like React. 
 
 // variables 
 variables are used to store the data,
@@ -86,3 +87,12 @@ reduce
 some
 every
 fill
+splice
+slice
+push
+pop
+shift()
+unshift()
+findIndex: to find particular item or element findIndex
+includes, used to check particular element in array or not
+

@@ -154,3 +154,12 @@ new_array.forEach((ele,idx,arra)=>console.log(arra))
 
 let mod_arr=new_array.filter(ele=>ele<=2).map(ele=>ele*100)
 console.log(mod_arr)
+
+// findindex
+let inde1=new_array.findIndex(ele=>ele===4)
+console.log('the_indeX_is',inde1)
+let find_ind=new_array.find(ele=>ele===50)
+console.log('the_find',find_ind)
+new_array.splice(inde1,1)
+
+console.log('the_new_arra',new_array)
